@@ -1,5 +1,13 @@
 name: "Setup Apache"
 description: "Setup an Apache server"
+inputs:
+  host_port:
+    description: 'The port of host'
+    required: false
+    default: '8080'
+  webroot_path:
+    description: 'The path of the webroot'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
