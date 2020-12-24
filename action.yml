@@ -1,0 +1,5 @@
+name: "Setup Apache"
+description: "Setup an Apache server"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
